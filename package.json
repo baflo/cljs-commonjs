@@ -1,0 +1,16 @@
+{
+  "name": "cljs-commonjs",
+  "version": "1.0.0",
+  "description": "```sh clj -m cljs.main -co cljs.edn -v -c ```",
+  "main": "main.js",
+  "scripts": {
+    "build": "clj -m cljs.main -co cljs.edn -v -c",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cljs-oss/module-deps": "^1.1.1"
+  }
+}
