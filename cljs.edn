@@ -2,6 +2,8 @@
  :optimizations :none
  :output-dir "tmp-closure"
  :output-to "dist/main.js"
+ ;; https://clojurescript.org/reference/compiler-options#target
  :target :nodejs
+ ;; https://clojurescript.org/reference/compiler-options#foreign-libs
  :foreign-libs [{:file "src"
                  :module-type :commonjs}]}
