@@ -1,5 +1,5 @@
 module.exports = {
 	greet() {
-		console.log("Hello CLJS!");
+		console.log("Hello Clojurescript!");
 	}
 }
